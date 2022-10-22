@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"-->
+    <!--link rel="stylesheet" href="bootstrap/css/bootstrap.css"-->
+    <link rel="stylesheet" href="style.css">    
+    <title>Rock Paper Scissor</title>
+    <!--bootstrap js-->
+    <!--script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script-->
+    <!--script src="bootstrap/js/bootstrap.bundle.js"></script-->
+
+  </head>
+  <body>
+    <center>
+
+    <section class="game">
+        <!--Title -->
+        <div class="title h6 mt-3 pt-3">Rock Paper Scissor</div>
+
+        <br><br>
+
+          <!--Display Score of player and computer -->
+        <div class="score"> 
+            <div class="playerScore">
+                <h2>Player</h2>
+                <p class="p-count count">0</p>
+ 
+            </div>      
+            <div class="computerScore">
+                <h2>Computer</h2>
+                <p class="c-count count">0</p>
+ 
+            </div>
+        </div>
+       
+        <div class="move">Choose your move</div>
+         
+         
+         
+          <!--Options available to player to play game -->
+        <div class="options">
+            <button class="rock">Rock</button>
+            <button class="paper">Paper</button>
+            <button class="scissor">Scissors</button>   
+        </div>
+<br>
+         <!--Number of moves left before game ends -->
+        <div class="movesleft">Moves Left: 10 </div>
+         
+          <!--Final result of game -->
+        <div class="result"></div>
+         
+          <!--Reload the game -->
+        <button class="reload"></button>
+ 
+    </section>
+
+      <!--div class="row">
+      <div class="col">
+        PLAYER
+        <br>
+        <label id="playerLevel">rff</label>
+      </div>
+
+      <!--Select/Start>
+      <div class="col">
+        <div>
+          <button
+            type="button"
+            class="btn btn-primary"
+            id="playerButtonRock"
+            value = 3
+            onclick="selectRock();">ROCK
+          </button>
+
+          <button
+            type = "button"
+            class = "btn btn-warning"
+            id = "playerButtonPaper"
+            value = 1
+            onclick ="outputName();">PAPER
+          </button>
+
+          <button
+            type = "button"
+            class = "btn btn-success"
+            id = "playerButtonScissor"
+            value = 2
+            onclick="selectScissor();">SCISSOR
+          </button>
+        </div>
+      </div>
+
+      <div class="col">
+        COMPUTER
+        <br>
+        <label id="computerLevel" >gfg</label>
+      </div-->
+
+    </center>
+    </div>
+  </body>
+  <script src = "main.js"></script>
+</html>
